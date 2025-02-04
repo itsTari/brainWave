@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Value from './components/Benefits';
 import Collaboration from './components/Collaboration';
+import Services from './components/Services';
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
         <Hero/>
         <Value/>
         <Collaboration/>
+        <Services/>
     </div>
       <ButtonGradient/>
     </>
