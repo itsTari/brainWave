@@ -15,7 +15,7 @@ const Value = () => {
                 {values.map((item)=>(
                     <div key={item.id}
                     style={{backgroundImage:`url(${item.backgroundUrl})`}}
-                    className='block relative p-0.5 bg-no-repeat  md:max-w-[20rem] shadow-2xl shadow-n-7'>
+                    className='block relative p-0.5 bg-no-repeat  md:max-w-[20rem] shadow-2xl shadow-n-7 '>
                         <div className='relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none'>
                             <h5 className='h5 mb-5'>{item.title}</h5>
                             <p className='body-2 mb-6 text-n-3'>{item.text}</p>
